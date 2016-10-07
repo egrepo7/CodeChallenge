@@ -1,0 +1,182 @@
+@font-face {
+  font-family: 'League Spartan';
+  src: url('../fonts/leaguespartan-bold.eot');
+  src: url('../fonts/leaguespartan-bold.eot?#iefix') format("embedded-opentype"), url('../fonts/leaguespartan-bold.woff2') format("woff2"), url('../fonts/leaguespartan-bold.woff') format("woff"), url('../fonts/leaguespartan-bold.ttf') format("truetype"), url('../fonts/leaguespartan-bold.svg#league_spartanbold') format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+@import url(http://allfont.net/allfont.css?fonts=montserrat-light);
+
+* {
+  font-family: 'League Spartan', sans-serif;
+}
+
+.intro-header {
+  text-align: center;
+  background: url(../assets/masthead-bg.jpg) no-repeat center center;
+  background-size: cover;
+  max-width: 100%;
+  height: 420px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+  img {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+  }
+}
+
+.headerlorum {
+  position: absolute;
+  right: 20px;
+  margin-top: 335px;
+  /*margin-right: 35px;*/
+  font-size: 5em;
+  color: #FDFFE3;
+}
+
+.navbar .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+.collapse ul li a {
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
+.demo-body {
+  background: #FDFFE3;
+  padding: 80px 0px 80px 0px;
+  h4 {
+    color: #C6491A;
+    font-family: 'Montserrat', sans-serif;
+  }
+  p {
+    line-height: 200%;
+    font-family: 'Montserrat', sans-serif;
+    a {
+      color: #C6491A;
+    }
+  }
+  img {
+    height: 75%;
+  }
+}
+
+.box {
+  background-color: #8E4423;
+  border-radius: 5px;
+  font-size: 2em;
+  color: #E6E3BB;
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+}
+
+.contact-section {
+  background-color: #242729;
+  color: white;
+  padding: 30px 0px 30px 0px;
+  h2 {
+    letter-spacing: 7px;
+  }
+  form {
+    input {
+      margin-top: 15px;
+    }
+    textarea {
+      margin-top: 10px;
+    }
+  }
+}
+
+.btn-black {
+  background-color: #242729;
+  color: white;
+  border-color: white;
+  width: 125px;
+}
+
+.news-section {
+  background: #FDFFE3;
+  padding: 50px 0px 60px 0px;
+  /*height: 100%;*/
+  h2 {
+    letter-spacing: 7px;
+    color: #242729;
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+  p {
+    margin-top: 15px;
+    color: #C6491A;
+    font-family: 'Montserrat Light', arial;
+  }
+  a {
+    color: #242729;
+  }
+}
+
+.blogs {
+  margin-bottom: 25px;
+}
+
+.footersection {
+  padding-top: 20px;
+  background-color: #8E4423;
+  height: 50px;
+  color: white;
+  a {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+  }
+  p {
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+/*li+li {
+   border-left: 1px solid #FFFFFF
+ }*/
+/*.footersection ul {
+  margin-left: 50px;
+}*/
+@media (max-width: 767px) {
+  .intro-header {
+    h1 {
+      font-size: 3em;
+      text-align: center;
+      /*margin-top: 55%;
+      margin-bottom: 45%;*/
+      text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+    }
+    img {
+      position: absolute;
+      left: 60px;
+      top: 130px;
+    }
+  }
+  .footersection a {
+    font-size: 10px;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 170px) {
+  .intro-header h1 {
+    margin-top: 210px;
+  }
+}
+
+@media (max-width: 350px) {
+  .intro-header h1 {
+    margin-top: 210px;
+    text-align: center;
+  }
+  .footersection a {
+    font-size: 8px;
+    margin-left: 20px;
+  }
+}
