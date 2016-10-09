@@ -179,4 +179,8 @@
     margin-right:20%;
     padding: auto;
   }
+
+  .footersection ul {
+    text-align: center;
+  }
 }
