@@ -165,9 +165,12 @@
       height: 400px;
     }
     .intro-header img {
-        position: absolute;
-        left: 60px;
-        top: 130px;
+      position: absolute;
+      left: 60px;
+      top: 130px;
+    }
+    .intro-header h1 {
+      text-align: center;
     }
 
 }
@@ -182,5 +185,6 @@
 
   .footersection ul {
     text-align: center;
+    font-size: 8px;
   }
 }
